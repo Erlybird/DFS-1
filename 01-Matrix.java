@@ -20,7 +20,8 @@ class Solution {
         for(int i=0;i<m;i++){
             for (int j = 0; j < n ; j++){
                 if(mat[i][j] == 0){
-                    q.add(new int[]{i,j});
+                    q.add(ne
+                            w int[]{i,j});
                 }else if(mat[i][j] == 1){
                     mat[i][j] = -1;
                 }
